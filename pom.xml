@@ -13,7 +13,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <exec.mainClass>com.mycompany.interfacesnaturales.InterfacesNaturalesApp</exec.mainClass>
+        <exec.mainClass>com.mycompany.interfacesnaturales.Main</exec.mainClass>
         <javafx.version>17.0.6</javafx.version>
     </properties>
 
@@ -42,7 +42,7 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.8</version>
                 <configuration>
-                    <mainClass>com.mycompany.interfacesnaturales.InterfacesNaturalesApp</mainClass>
+                    <mainClass>com.mycompany.interfacesnaturales.Main</mainClass>
                 </configuration>
             </plugin>
         </plugins>
