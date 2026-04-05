@@ -44,6 +44,10 @@ import org.jfree.data.general.DefaultPieDataset;
  */
 public class InterfacesNaturalesApp extends Application {
 
+    public static void main(String[] args) {
+        launch(args);
+    }
+
     private final Map<String, Integer> contadores = new LinkedHashMap<>();
     private final ObservableList<String> eventos = FXCollections.observableArrayList();
     private final ObservableList<PieChart.Data> datosTarta = FXCollections.observableArrayList();
