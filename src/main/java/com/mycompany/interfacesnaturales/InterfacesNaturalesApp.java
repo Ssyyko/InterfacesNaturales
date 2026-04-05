@@ -129,8 +129,6 @@ public class InterfacesNaturalesApp extends Application {
         zona.setOnMouseClicked(e -> registrar("Mouse clicked"));
         zona.setOnMousePressed(e -> registrar("Mouse pressed"));
         zona.setOnMouseReleased(e -> registrar("Mouse released"));
-        zona.setOnMouseMoved(e -> registrar("Mouse moved"));
-        zona.setOnMouseDragged(e -> registrar("Mouse dragged"));
         zona.setOnMouseEntered(e -> registrar("Mouse entered"));
         zona.setOnMouseExited(e -> registrar("Mouse exited"));
         zona.setOnDragDetected(e -> registrar("Drag detected"));
@@ -155,7 +153,7 @@ public class InterfacesNaturalesApp extends Application {
 
     private void inicializarContadores() {
         String[] tipos = {
-            "Mouse clicked", "Mouse pressed", "Mouse released", "Mouse moved", "Mouse dragged",
+            "Mouse clicked", "Mouse pressed", "Mouse released",
             "Mouse entered", "Mouse exited", "Drag detected", "Scroll", "Zoom", "Rotate",
             "Swipe up", "Swipe down", "Swipe left", "Swipe right",
             "Touch pressed", "Touch moved", "Touch released",
